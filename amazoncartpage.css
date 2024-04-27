@@ -1,0 +1,265 @@
+* {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: black;
+      --text-color: white;
+    }
+  }
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar .navlogo {
+    height:55px;
+    width:115px;
+    border: 2px solid transparent;
+}
+.navbar .navlogo:hover {
+    border: 1.5px solid white;
+}
+.navbar .navlogo .logo {
+    height:53px;
+    width:100%;
+    background-image: url("amazonlogoin.png");
+    background-size: cover;
+}
+.navbar .navaddress .chennai {
+    color:#cccccc;
+    font-size:0.85rem;
+    margin-left: 15px;
+}
+.navbar .navaddress .addicon .loc {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.addicon {
+    display: flex;
+    align-items: center;
+}
+.navbar .navaddress:hover {
+    border: 1.5px solid white;
+}
+.navbar .navsearch  {
+    display:flex;
+    background-color: crimson;
+    width: 720px;
+    height: 40px;
+    border-radius: 3px;
+    
+    
+}
+.navbar .navsearch .search {
+    background-color: #f3f3f3;
+    width: 70px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    font-size: medium;
+}
+.navbar .navsearch .searchh {
+    width: 100%;
+    font-size: medium;
+}
+.navbar .navsearch .searchicon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 170, 111);
+    font-size: 1.2rem;
+    color: #0f1111;
+    border-top-right-radius: 3px; 
+    border-bottom-right-radius: 3px;
+}
+span {
+    font-size: 0.7rem;
+}
+.navsecond {
+    font-size: 0.85rem;
+}
+.returns {
+    font-size: 0.7rem;
+}
+.orders {
+    font-size: 0.85rem;
+}
+.cart{
+    display: flex;
+}
+.lang:hover {
+    border: 1.5px solid white;
+}
+.signin:hover {
+    border: 1.5px solid white;
+}
+.ro:hover {
+    border: 1.5px solid white;
+}
+.cart:hover {
+    border: 1.5px solid white;
+}
+.panel {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size:15px;
+    height: 40px;
+    align-items: center;
+}
+.all:hover{
+    border: 1.5px solid white;
+}
+.fresh:hover {
+    border: 1.5px solid white;
+}
+.tv:hover {
+    border: 1.5px solid white;
+}
+.sell:hover{
+    border: 1.5px solid white;
+}
+.bs:hover {
+    border: 1.5px solid white;
+}
+.mobiles:hover {
+    border: 1.5px solid white;
+}
+.deals:hover {
+    border: 1.5px solid white;
+}
+.prime:hover {
+    border: 1.5px solid white;
+}
+.cs:hover {
+    border: 1.5px solid white;
+}
+.elec:hover {
+    border: 1.5px solid white;
+}
+.nr:hover {
+    border: 1.5px solid white;
+}
+.hk:hover {
+    border: 1.5px solid white;
+}
+.fashion:hover {
+    border: 1.5px solid white;
+}
+.pay:hover {
+    border: 1.5px solid white;
+}
+.gift:hover {
+    border: 1.5px solid white;
+}
+.comp:hover {
+    border: 1.5px solid white;
+}
+.main {
+    background-color: #cccccc;
+    height: 500px;
+
+
+}
+.firstdiv {
+    display: flex;
+    background-color: white;
+    height: 300px;
+    width:1000px;
+    border-radius: 3px;
+}
+.signintoyouracc {
+    height:40px;
+    background-color: rgb(251, 221, 22);
+    border-radius: 5px;
+    font-weight: 800;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.signupnow {
+    height:40px;
+    background-color: white;
+    border-color: #cccccc;
+    border-radius: 5px;
+    font-weight: 800;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sign {
+    border-top: solid #cccccc;
+    border-bottom: solid #cccccc;
+    padding-top: 30px;
+    justify-content: center;
+    padding-left: 600px;
+    align-items: center;
+}
+.signnn {
+    background-color:rgb(251, 221, 22);
+    border: none;
+    height: 30px;
+    width: 260px;
+    border-radius: 3px;
+
+}
+.last {
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    height: 300px;
+}
+.list:hover {
+    text-decoration: solid;
+}
+.listt:hover {
+    text-decoration: solid;
+}
+.listtt:hover {
+    text-decoration-line: solid;
+}
+.listttt:hover {
+    text-decoration: solid;
+}
+.yeslast {
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    justify-content:center;
+    padding-top: 30px;
+    height: 200px;
+}
+.globe {
+    border-radius: 3px;
+    border-color: white;
+    background-color: #232f3e;
+    border-width: 2px;
+    height: 20px;
+    color: white;
+    justify-content: center;
+    margin-top: 36px;
+    margin-left: 90px;
+    margin-right: 10px;
+}
+.ind {
+    border-radius: 3px;
+    border-color: white;
+    background-color: #232f3e;
+    border-width: 2px;
+    height: 20px;
+    color: white;
+    justify-content: center;
+    margin-top: 36px;
+}

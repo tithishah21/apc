@@ -1,0 +1,572 @@
+* {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: black;
+      --text-color: white;
+    }
+  }
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar .navlogo {
+    height:55px;
+    width:115px;
+    border: 2px solid transparent;
+}
+.navbar .navlogo:hover {
+    border: 1.5px solid white;
+}
+.navbar .navlogo .logo {
+    height:53px;
+    width:100%;
+    background-image: url("amazonlogoin.png");
+    background-size: cover;
+}
+.navbar .navaddress .chennai {
+    color:#cccccc;
+    font-size:0.85rem;
+    margin-left: 15px;
+}
+.navbar .navaddress .addicon .loc {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.addicon {
+    display: flex;
+    align-items: center;
+}
+.navbar .navaddress:hover {
+    border: 1.5px solid white;
+}
+.navbar .navsearch  {
+    display:flex;
+    background-color: crimson;
+    width: 720px;
+    height: 40px;
+    border-radius: 3px;   
+}
+.navbar .navsearch .search {
+    background-color: #f3f3f3;
+    width: 70px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    font-size: medium;
+}
+.navbar .navsearch .searchh {
+    width: 100%;
+    font-size: medium;
+}
+.navbar .navsearch .searchicon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 170, 111);
+    font-size: 1.2rem;
+    color: #0f1111;
+    border-top-right-radius: 3px; 
+    border-bottom-right-radius: 3px;
+}
+span {
+    font-size: 0.7rem;
+}
+.navsecond {
+    font-size: 0.85rem;
+}
+.returns {
+    font-size: 0.7rem;
+}
+.orders {
+    font-size: 0.85rem;
+}
+.cart{
+    display: flex;
+    background-color:#0f1111;
+    border: none;
+    color: white;
+}
+.lang:hover {
+    border: 1.5px solid white;
+}
+.signin:hover {
+    border: 1.5px solid white;
+}
+.ro:hover {
+    border: 1.5px solid white;
+}
+.cart:hover {
+    border: 1.5px solid white;
+}
+.panel {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size:15px;
+    height: 40px;
+    align-items: center;
+}
+.elec {
+    background-color: #232f3e;
+    border: none;
+    color: white;
+}
+.all:hover{
+    border: 1.5px solid white;
+}
+.fresh:hover {
+    border: 1.5px solid white;
+}
+.tv:hover {
+    border: 1.5px solid white;
+}
+.sell:hover{
+    border: 1.5px solid white;
+}
+.bs:hover {
+    border: 1.5px solid white;
+}
+.mobiles:hover {
+    border: 1.5px solid white;
+}
+.deals:hover {
+    border: 1.5px solid white;
+}
+.prime:hover {
+    border: 1.5px solid white;
+}
+.cs:hover {
+    border: 1.5px solid white;
+}
+.elec:hover {
+    border: 1.5px solid white;
+}
+.nr:hover {
+    border: 1.5px solid white;
+}
+.hk:hover {
+    border: 1.5px solid white;
+}
+.fashion:hover {
+    border: 1.5px solid white;
+}
+.pay:hover {
+    border: 1.5px solid white;
+}
+.gift:hover {
+    border: 1.5px solid white;
+}
+.comp:hover {
+    border: 1.5px solid white;
+}
+.baby {
+    background-image: url("baby.jpg");
+    height: 430px;
+    background-size:cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+.onee {
+    background-color: white;
+    height: 350px;
+    width:300px;
+    margin-top: 300px;
+    justify-content:space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.start {
+    font-size:x-large;
+    font-weight: bolder;
+}
+.twoo {
+    background-color: white;
+    height: 350px;
+    width:300px;
+    margin-top: 300px;
+    justify-content:space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+.revamp {
+    font-size:x-large;
+    font-weight: bolder;
+}
+.oof {
+    display: flex;
+    justify-content: space-evenly;
+}
+.ooff {
+    display: flex;
+    justify-content: space-evenly;
+}
+.carpet {
+    background-image: url("carpet.png");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+
+    justify-content: space-evenly;
+}
+.robot {
+    background-image: url("robot.png");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+
+    justify-content: space-evenly;
+}
+.org {
+    background-image: url("org.png");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+
+    justify-content: space-evenly;
+}
+.lamp {
+    background-image: url("lamp.png");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+
+    justify-content: space-evenly;
+}
+.threee {
+    background-color: white;
+    height: 350px;
+    width:300px;
+    margin-top: 300px;
+    justify-content:space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.app {
+    font-size:x-large;
+    font-weight: bolder;
+}
+.hmm {
+    display: flex;
+    justify-content: space-evenly;
+}
+.hmmm {
+    display: flex;
+    justify-content: space-evenly;
+}
+.ac {
+    background-image: url("ac.png");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+
+    justify-content: space-evenly;
+}
+.fridge {
+    background-image: url("fridge.png");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+
+    justify-content: space-evenly;
+}
+.microwave {
+    background-image: url("microwave.png");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+
+    justify-content: space-evenly;
+}
+.wm {
+    background-image: url("wm.png");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+
+    justify-content: space-evenly;
+}
+.fourr {
+    background-color: white;
+    height: 350px;
+    width:300px;
+    margin-top: 300px;
+    justify-content:space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.brands {
+    font-size:x-large;
+    font-weight: bolder;
+}
+.hey {
+    display: flex;
+    justify-content: space-evenly;
+}
+.heyy {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottles {
+    background-image: url("bottles.png");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+
+    justify-content: space-evenly;
+}
+.Kitchen {
+    background-image: url("kitchendabba.png");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+
+    justify-content: space-evenly;
+}
+.teddy {
+    background-image: url("teddy.png");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+
+    justify-content: space-evenly;
+}
+.girls {
+    background-image: url("girls.png");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+    justify-content: space-evenly;
+}
+.notbaby {
+    background-color: #d3cdcd92;
+    height: 445px;
+    background-size:cover;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.fivee {
+    background-color: white;
+    height: 350px;
+    width:300px;
+    margin-top: 300px;
+    justify-content:space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.fruits {
+    font-size:x-large;
+    font-weight: bolder;
+}
+.sixx {
+    background-color: white;
+    height: 350px;
+    width:300px;
+    margin-top: 300px;
+    justify-content:space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.gb {
+    font-size:x-large;
+    font-weight: bolder;
+}
+.sevenn {
+    background-color: white;
+    height: 350px;
+    width:300px;
+    margin-top: 300px;
+    justify-content:space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.movie {
+    font-size:x-large;
+    font-weight: bolder;
+}
+.eightt {
+    background-color: white;
+    height: 350px;
+    width:300px;
+    margin-top: 300px;
+    justify-content:space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.upto {
+    font-size:x-large;
+    font-weight: bolder;
+}
+.notbabyy {
+    background-color: #d3cdcd92;
+    height: 780px;
+    background-size:cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ninee {
+    background-color: white;
+    height: 350px;
+    width:300px;
+    margin-top: 300px;
+    justify-content:space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.pan {
+    font-size:x-large;
+    font-weight: bolder;
+}
+.tenn {
+    background-color: white;
+    height: 350px;
+    width:300px;
+    margin-top: 300px;
+    justify-content:space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.swan {
+    font-size:x-large;
+    font-weight: bolder;
+}
+.elevenn {
+    background-color: white;
+    height: 350px;
+    width:300px;
+    margin-top: 300px;
+    justify-content:space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.gym {
+    font-size:x-large;
+    font-weight: bolder;
+}
+.twelvee {
+    background-color: white;
+    height: 350px;
+    width:300px;
+    margin-top: 300px;
+    justify-content:space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.scooty {
+    font-size:x-large;
+    font-weight: bolder;
+}
+.sign {
+    border-top: solid #cccccc;
+    border-bottom: solid #cccccc;
+    padding-top: 30px;
+    justify-content: center;
+    padding-left: 600px;
+    align-items: center;
+}
+.signnn {
+    background-color:rgb(251, 221, 22);
+    border: none;
+    height: 30px;
+    width: 260px;
+    border-radius: 3px;
+
+}
+.last {
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    height: 300px;
+}
+.list:hover {
+    text-decoration: solid;
+}
+.listt:hover {
+    text-decoration: solid;
+}
+.listtt:hover {
+    text-decoration-line: solid;
+}
+.listttt:hover {
+    text-decoration: solid;
+}
+.yeslast {
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    justify-content:center;
+    padding-top: 30px;
+    height: 200px;
+}
+.globe {
+    border-radius: 3px;
+    border-color: white;
+    background-color: #232f3e;
+    border-width: 2px;
+    height: 20px;
+    color: white;
+    justify-content: center;
+    margin-top: 36px;
+    margin-left: 90px;
+    margin-right: 10px;
+}
+.ind {
+    border-radius: 3px;
+    border-color: white;
+    background-color: #232f3e;
+    border-width: 2px;
+    height: 20px;
+    color: white;
+    justify-content: center;
+    margin-top: 36px;
+}
